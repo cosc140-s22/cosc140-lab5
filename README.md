@@ -1,8 +1,8 @@
-# COSC140 homework 6
+# COSC140 lab 6
 
-## Homework feedback
+## Lab feedback
 
- * How long did you spend on this homework?
+ * How long did you spend on this lab?
 
  * What did you think about it?  What was good?  What could be improved?
 
