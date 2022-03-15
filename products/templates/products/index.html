@@ -3,8 +3,8 @@
 {% block sidebar %}
 <form method="get" action="{% url 'index' %}">
     {{ form }}
-    <input class="btn btn-primary" type="submit" name="Filter results">
-    <a href="{% url 'index' %}?reset=true" class="btn btn-secondary">Reset filters</a>
+    <input class="btn btn-sm btn-info" type="submit" name="Filter results">
+    <a href="{% url 'index' %}?reset=true" class="btn btn-sm btn-secondary">Reset filters</a>
 </form>
 {% endblock %}
 

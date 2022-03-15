@@ -18,6 +18,7 @@ from django.shortcuts import redirect
 from django.urls import path, include, reverse_lazy
 from django.conf import settings
 from django.conf.urls.static import static
+from django.contrib.auth import views as auth_views
 
 from products.views import index, show
 
@@ -27,6 +28,8 @@ def root_redirect(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('login/', auth_views.LoginView.as_view(), name='login'),
+    path('logout/', auth_views.LogoutView.as_view(next_page='/'), name='logout'),
     path('products/', index, name='index'),
     path('products/<int:product_id>', show, name='show'),
     path('', root_redirect),
