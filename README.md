@@ -1,4 +1,4 @@
-# COSC140 lab 6
+# COSC140 lab 5
 
 ## Lab feedback
 

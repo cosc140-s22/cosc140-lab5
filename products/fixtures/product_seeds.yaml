@@ -58,3 +58,66 @@
     minimum_age_appropriate: 0
     maximum_age_appropriate: 2
     release_date: "1981-09-30"
+- model: products.Review
+  pk: 1
+  fields:
+    stars: 1
+    review: "Bad, bad, bad"
+    product_id: 1
+    user_id: 1
+- model: products.Review
+  pk: 2
+  fields:
+    stars: 2
+    review: "Less bad"
+    product_id: 2
+    user_id: 1
+- model: products.Review
+  pk: 3
+  fields:
+    stars: 3
+    review: "Meh"
+    product_id: 3
+    user_id: 1
+- model: products.Review
+  pk: 4
+  fields:
+    stars: 4
+    review: "Kinda like"
+    product_id: 4
+    user_id: 1
+- model: products.Review 
+  pk: 5
+  fields:
+    stars: 5
+    review: "Like a lot!"
+    product_id: 5
+    user_id: 1
+- model: products.Review
+  pk: 6
+  fields:
+    stars: 1
+    review: "Bad, bad, bad"
+    product_id: 6
+    user_id: 1
+- model: products.Review
+  pk: 7
+  fields:
+    stars: 2
+    review: "Less bad"
+    product_id: 7
+    user_id: 1
+- model: products.Review
+  pk: 8
+  fields:
+    stars: 3
+    review: "Meh"
+    product_id: 1
+    user_id: 1
+- model: products.Review
+  pk: 9
+  fields:
+    stars: 4
+    review: "Kinda like"
+    product_id: 2
+    user_id: 1
