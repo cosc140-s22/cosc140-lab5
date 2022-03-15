@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+<section>
 <p class="lead">Details for {{product.name}}</p>
 <dl>
     <dt>Description</dt><dd>{{product.description}}</dd>
@@ -9,10 +10,27 @@
     <dt>Price</dt><dd>{{product.price}}</dd>
     <dt>Average rating</dt><dd>{{product.avg_rating|floatformat:2}}</dd>
 </dl>
+</section>
 
-{# Add your review table and new review form here, before the endblock below #}
+<section>
+<table class="table">
+    <thead>
+        <th>Review</th>
+        <th>Rating</th>
+    </thead>
+    <tbody>
 
+        {# Add the contents of the review table here #}
 
+    </tbody>
+</table>
+</section>
+
+<section>
+
+{# Add new review form here #}
+
+</section>
 
 {% endblock %}
 
